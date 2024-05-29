@@ -1,12 +1,16 @@
 <%- include("partials/header.ejs")  %>
 
+<% if (locals.adjective && locals.noun) { %>
+    
+    <%- include("partials/input.ejs") %>
 
-
-
-
-
-
-
+    <% } else { %>
+        <div class="first">
+            <h1>Welcome to my Tech Blog!</h1>
+            <p>Here i talk about all the tech updates that can bring in money, or in short, I talk about business oppertunities in the tech world.</p>
+            <h2>Feel Free to make contributions!</h2>
+        </div>
+      <% } %>
 
 
 

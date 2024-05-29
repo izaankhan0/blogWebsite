@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;   
     background-color: #f46e00;
     padding: 15px 0px;
+    align-items: center;
 }
 nav > ul > a >li{
     list-style:none;
@@ -36,4 +37,54 @@ nav > ul > a  :hover {
 nav > ul{
     display: flex;
 
+}
+
+.form-1{
+    /* margin-right: 40px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 25px 0px;
+    background-color: black;
+}
+
+.inp-1{
+    padding: 20px 20px;
+    text-align: center;
+font-size: 20px;
+    border-radius: 20px;
+    /* border: none; */
+    width: 88%;
+    border: solid black 2px;
+    margin: 20px;
+    
+}
+.txt-box{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inp-0{
+    width: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    /* border: none; */
+    width: 50%;
+    border: solid black 2px;
+    /* margin: 20px; */
+    text-align: center;
+font-size: 17px;
+
+}
+.inp-2{
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    width: 10%;
+    height: 50px;
+    align-self: center;
+    margin: 0px 30px 20px 30px;
 }
